@@ -1,0 +1,4 @@
+with EMP AS (SELECT EID,EFNAME,ELNAME,EAGE,CASE WHEN ESEX='M' THEN 'MALE' ELSE 'FEMALE' END AS ESEX 
+FROM {{source('landing', 'EMP_S')}})
+SELECT * FROM EMP
+--dbt build --model EMP_DETAILS.sql

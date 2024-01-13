@@ -45,4 +45,14 @@ models:
       orders_cust_total:
         schema: L3_PROCESSING
         materialized: table
+    EMP:
+      EMP_DETAILS:
+        schema: COMP_INT
+      EMP_DEPT:
+        schema: COMP_INT
+      EMP_LOCATION:
+        schema: COMP_INT
+      EMP_SAL:
+        schema: COMP_RPT
+        materialized: table
 

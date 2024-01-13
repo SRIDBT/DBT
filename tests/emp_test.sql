@@ -1,0 +1,1 @@
+select ESAL FROM {{ref('EMP_SAL')}} WHERE ESAL<10
