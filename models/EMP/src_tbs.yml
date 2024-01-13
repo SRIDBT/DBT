@@ -1,0 +1,14 @@
+sources:
+  - name: landing
+    database: SALES
+    schema: COMP_STG
+    tables:
+      - name: EMP_S
+        identifier: EMP_DETAILS
+      - name: EMP_D
+        identifier: EMP_DEPT
+      - name: EMP_L
+        identifier: EMP_LOCATION
+
+
+

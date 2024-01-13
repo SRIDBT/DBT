@@ -1,0 +1,3 @@
+SELECT COMPANY_NAME,EDEPT,ESEX,SUM(ESAL) AS SALARY_TREND FROM {{ref('EMP_SAL')}}
+GROUP BY COMPANY_NAME,EDEPT,ESEX
+-- dbt build --select company_employees_report
