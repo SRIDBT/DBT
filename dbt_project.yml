@@ -37,8 +37,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   DBT_SNOW:
-    # Applies to all files under models/example/
-    example:
       customers:
         schema: L2_PROCESSING
       lineitems:
